@@ -32,10 +32,10 @@ python main.py join-po splitted/input_part_*.po --output=input.po
 
 ```bash
 # Run split command directly
-python -m splitpo.split input.po --output-dir=./splitted --entries 100
+splitpo input.po --output-dir=./splitted --entries 100
 
 # Run join command directly
-python -m splitpo.join splitted/input_part_*.po --output=input.po
+joinpo splitted/input_part_*.po --output=input.po
 ```
 
 ### Options

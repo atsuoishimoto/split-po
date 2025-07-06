@@ -1,1 +1,0 @@
-"""splitpo package for splitting and joining gettext .po files."""
