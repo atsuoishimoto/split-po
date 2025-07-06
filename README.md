@@ -12,9 +12,24 @@ A Python utility for splitting gettext .po files into smaller chunks by entry co
 
 ## Installation
 
-```bash
-pip install -e .
-```
+We recommend using `uv` for the best experience. `uv` is an extremely fast Python package installer and resolver.
+
+First, install `uv`:
+
+.. code-block:: sh
+
+    # macOS / Linux
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+
+    # Windows
+    powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+Then, use `uv tool install` to make the `splitpo` command available globally without polluting your system's Python environment:
+
+.. code-block:: sh
+
+    uv tool install splitpo
+
 
 ## Usage
 
